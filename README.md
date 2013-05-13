@@ -1,4 +1,4 @@
 denali
 ======
 
-A repo to test the main repo's workings
+To test the other repo's workings
