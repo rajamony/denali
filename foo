@@ -1,3 +1,7 @@
 and I say foo
-but only in the branch testing
-actually, I goofed up. This is still in master
+    but only in the branch testing
+    actually, I goofed up. This is still in master
+
+    and this is really in the branch testing
+
+and now we're all merged
