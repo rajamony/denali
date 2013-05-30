@@ -9,7 +9,7 @@ if test "$x" -gt 100000; then
     rm -f unhappy
 else
     echo "$x"
-    sleep 30 
+    sleep 60 
     touch unhappy
 fi
 
