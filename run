@@ -9,7 +9,7 @@ if test "$x" -gt 10; then
     rm -f unhappy
 else
     echo "$x"
-    sleep 5
+    sleep 10 
     touch unhappy
 fi
 
