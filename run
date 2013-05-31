@@ -5,11 +5,11 @@ x=$(cat count)
 let "x += 1"
 echo -n "$x" > count
 
-if test "$x" -gt 100000; then
+if test "$x" -gt 10; then
     rm -f unhappy
 else
     echo "$x"
-    sleep 60 
+    sleep 6 
     touch unhappy
 fi
 
