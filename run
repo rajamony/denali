@@ -9,13 +9,11 @@ if test "$x" -gt 10; then
     rm -f unhappy
 else
     echo "$x"
-    ./randsleep 6 10
+    y=$(($x+6))
+    z=$(($x+20))
+    ./randsleep $y $z
     touch unhappy
 fi
 
 exit 0
-
-
-
-
 
